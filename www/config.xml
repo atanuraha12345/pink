@@ -20,7 +20,7 @@
   <preference name="android-installLocation" value="auto"/>
   
   
-  <gap:plugin name="org.apache.cordova.media-capture" spec="0.2.16" source="npm"/>
+  <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
   <gap:plugin name="org.apache.cordova.console" spec="0.2.16" source="npm"/>
   <gap:plugin name="org.apache.cordova.contacts" spec="0.2.16" source="npm"/>
   <gap:plugin name="org.apache.cordova.device" spec="0.2.16" source="npm"/>
