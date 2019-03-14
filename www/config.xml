@@ -5,9 +5,9 @@
 		id        = "com.phonegap.helloworld"
 		versionCode=""
 		version   = "1.0.0">
-		<name>PINK		</name>
-		<description>Hello PINK : deviceready event.		</description>
-		<author href="http://pink.com" email="support@pink.com">PINK Team		</author>
+		<name>YOOH BUDDY		</name>
+		<description>Hello World sample application that responds to the deviceready event.		</description>
+		<author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team		</author>
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
@@ -24,7 +24,6 @@
 		<plugin name="cordova-plugin-device-orientation"  />
 		<plugin name="cordova-plugin-device-motion"  />
 		<plugin name="cordova-plugin-dialogs"  />
-		<plugin name="cordova-plugin-file"  />
 		<plugin name="cordova-plugin-file-transfer"  />
 		<plugin name="cordova-plugin-geolocation"  />
 		<plugin name="cordova-plugin-globalization"  />
@@ -36,9 +35,6 @@
 		<plugin name="cordova-plugin-vibration"  />
 		<plugin name="undefined" version="" source="npm"  />
 		<plugin name="undefined" version="" source="npm"  />
-		<plugin name="undefined" version="" source="npm"  />
-		<plugin name="undefined" version="" source="npm"  />
-		<plugin name="undefined" version="" source="npm"  />
 		<preference name="phonegap-version" value="cli-6.3.0" />
 		<preference name="android-build-tool" value="gradle" />
 		<preference name="orientation" value="default" />
@@ -46,22 +42,22 @@
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
 		<preference name="prerendered-icon" value="true" />
-		<preference name="stay-in-webview" value="true" />
+		<preference name="stay-in-webview" value="false" />
 		<preference name="ios-statusbarstyle" value="black-opaque" />
 		<preference name="detect-data-types" value="true" />
 		<preference name="exit-on-suspend" value="false" />
 		<preference name="show-splash-screen-spinner" value="true" />
 		<preference name="auto-hide-splash-screen" value="true" />
 		<preference name="FadeSplashScreen " value="true" />
-		<preference name="EnableViewportScale" value="true" />
-		<preference name="MediaPlaybackRequiresUserAction" value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
 		<preference name="AllowInlineMediaPlayback" value="true" />
-		<preference name="BackupWebStorage" value="local" />
+		<preference name="BackupWebStorage" value="none" />
 		<preference name="TopActivityIndicator" value="white" />
 		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
 		<preference name="KeyboardShrinksView " value="true" />
 		<preference name="HideKeyboardFormAccessoryBar" value="true" />
-		<preference name="SuppressesIncrementalRendering" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="windows-identity-name" value="" />
 		<preference name="android-minSdkVersion" value="14" />
 		<preference name="android-installLocation" value="auto" />
@@ -96,37 +92,6 @@
 		<icon src="C:\Users\DADA\Desktop\pink\www\config.xmlwww/res/icon/windows-phone/icon-173-tile.png" />
 		</platform>
 		 <icon src="icon.png" />
-		<access origin="https://www.yoohbuddy.com/" subdomains="false" />
-		<allow-intent href="http://*/*" />
-		<allow-intent href="https://*/*" />
-		<allow-intent href="tel:*" />
-		<allow-intent href="sms:*" />
-		<allow-intent href="mailto:*" />
-		<allow-intent href="geo:*" />
-		<platform name="android" >
-		<allow-intent href="market:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms-apps:*" />
-		</platform>
-		<allow-intent href="http://*/*" />
-		<allow-intent href="https://*/*" />
-		<allow-intent href="tel:*" />
-		<allow-intent href="sms:*" />
-		<allow-intent href="mailto:*" />
-		<allow-intent href="geo:*" />
-		<platform name="android" >
-		<allow-intent href="market:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms:*" />
-		</platform>
-		<platform name="ios" >
-		<allow-intent href="itms-apps:*" />
-		</platform>
 		<allow-intent href="http://*/*" />
 		<allow-intent href="https://*/*" />
 		<allow-intent href="tel:*" />
